@@ -1,0 +1,192 @@
+body {
+	background-image: url(../images/a.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-size: cover;
+margin:0;
+padding-bottom:10%;
+}
+div[class*="footer"] {
+ 
+font-size:24px;
+padding-left: 10px;
+padding-bottom:20px;
+padding-right: 20px;
+}
+
+
+h1{
+    left: 100px;
+    top: 250px;
+}
+
+.button {
+    background-color: #0C229A; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+border-radius:15px;
+}
+
+
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+border-radius: 8px;
+}
+
+h1
+{
+color: black;
+font-size: 250%;
+}
+
+
+.footer {
+
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #00001a;
+   color: white;
+   text-align: right;
+  height:5%;
+}
+
+
+.navbar {
+  width: 100%;
+  background-color: #00001a;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #9999ff;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+body
+{
+  margin:0;
+}
+
+h1{
+color:#126A7C;
+font-size:350%;
+    left: 100px;
+    top: 250px;
+}
+
+.button:hover
+{
+background-image:none;
+background-color:#00BFFF;
+}
+.container{
+	background-color:black;
+	opacity:0.7;
+	width:30%;
+	
+}​
+.container p label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}
+
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+	color:#FFF;
+	width:50%;
+	margin:auto;
+	padding-bottom:10px;
+	
+}
+
+* {
+    box-sizing: border-box;
+	border-radius:10px;
+} 
+ 
+​​.container {
+    padding: 16px;
+    background-color: #1d1b1b2b;
+} 
+
+input[type=text], input[type=password], input[type=email], input[type=number], input[type=date] ,input[type=tel]{
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    color:black;
+   height:5px;
+   text-align:center;
+    
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=number]:focus input[type=date]:focus input[type=tel]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+} 
+
+label{
+	color:#00FFFF;
+	font-size:16px;
+}
+  h1
+  {
+  font-size:70px;
+  }
+  
+  #one{
+  color:white;
+  font-size:25px;
+  }
